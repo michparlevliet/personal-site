@@ -1,0 +1,33 @@
+/* font-family: 'Anonymous Pro', monospace; */
+/* font-family: 'Archivo', sans-serif; */
+
+/* DEFAULT STYLING */
+/* GENERAL */
+:root {
+  --main-color: #4F54AC;
+  --main-accent: #E1F58B;
+  --second-accent: #CB49A2;
+}
+html {
+  box-sizing: border-box;
+  font-family:'Anonymous Pro', monospace;
+}
+*, *::before, *::after {
+  box-sizing:inherit;
+}
+body {
+  margin:0;
+}
+a {
+  color:black;
+  text-decoration:none;
+  font-size: 14px;
+}
+a:hover {
+  color:var(--second-accent);
+}
+h1,h2,h3,h4,h5 {
+  font-family: 'Archivo', sans-serif;
+  text-transform: uppercase;
+  font-weight:500;
+}
