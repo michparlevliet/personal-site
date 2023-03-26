@@ -31,7 +31,7 @@ a:hover {
 }
 h1,h2,h3,h4,h5 {
   font-family: 'Archivo', sans-serif;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-weight:500;
 }
 ul {
@@ -164,14 +164,17 @@ ul a {
 }
 
 .skill {
-  background-color:#CB49A2;
+  border:#CB49A2 solid 2px;
   /* color: white; */
   padding:0;
   border-radius: 1em;
   flex: 2 0 0;
 }
+.skill h3 {
+  text-transform: capitalize;
+}
 .skill-bar {
-  background-color:rgba(255, 255, 255, 0.459);
+  background-color:#cb49a265;
   padding: 1em;
   border-radius: 1em;
   display: flex;
